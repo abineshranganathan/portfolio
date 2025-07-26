@@ -3,6 +3,10 @@
 - [Portfolio 2](https://www.figma.com/design/SYUJKJntUA0i8Wdxej726n/Portfolio-Design--Community-?node-id=0-1&p=f&t=BfWGmnsBrkIBOVMw-0)
 - [Portfolio 3](https://www.figma.com/design/bVU3lqrnc5msToYNgFRT8L/Personal-Portfolio---Porrtfolio-App--Community-?node-id=0-1&p=f&t=dE3KJXzPD07JnmNZ-0)
 
+# Reference UI
+- [Repo](https://github.com/emmabostian/developer-portfolios)
+  - [Tajmirul](https://www.me.toinfinite.dev/)
+
 # "DevConnect" – A Developer Portfolio & Community Hub
 This project can demonstrate:
 - React (hooks, context, components)

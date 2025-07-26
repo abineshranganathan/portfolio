@@ -1,9 +1,12 @@
-import './App.css'
+import './App.scss'
 
 function App() {
 
   return (
-    <h1>Abinesh R</h1>
+    <div className='inital-bg'>
+       <h1 className='title'>ABINESH R</h1>
+    </div>
+   
   )
 }
 
