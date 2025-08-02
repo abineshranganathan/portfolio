@@ -1,10 +1,69 @@
 .inital-bg {
   background-color: #000000;
   height: 100vh;
-  color: #FFFFFF;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 42px;
-  letter-spacing: 1px;
+  
+}
+
+.name {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  // background-color: red;
+  height: 130px;
+}
+
+.name > span {
+  color: #FFFFFF;
+  font-size: 160px;
+  font-family: "Roboto";
+  font-weight: bold;
+  transform: translateY(100%);
+  display: inline-block;
+  line-height: 146px;
+  margin-inline: -5px;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-name: slideIn;
+  animation-timeline: auto;
+  animation-range-start: normal;
+}
+
+.name > span:nth-child(1) {
+    animation-delay: 0s;
+}
+.name > span:nth-child(2) {
+    animation-delay: 0.05s;
+}
+.name > span:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.name > span:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.name > span:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.name > span:nth-child(6) {
+  animation-delay: 0.25s;
+}
+.name > span:nth-child(7) {
+  animation-delay: 0.3s;
+}
+.name > span:nth-child(8) {
+  animation-delay: 0.35s;
+}
+.name > span:nth-last-child(1) {
+  margin-left: 45px;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+  }
 }
